@@ -1,3 +1,56 @@
 body{
+    display: flex;
+    margin: 0%;
+    background-color: rgb(188, 192, 245);
     
 }
+.nav_bar{
+    position: absolute;
+    z-index: 2;
+    float: right;
+    height: 15% ;
+    max-height: 100px;
+    width: 100%;
+    background-color: rgb(40, 94, 141);
+}
+#nav_button{
+    background-color: aqua;
+    max-width: 15%;
+    max-height: 10px;
+
+}
+.About{
+    margin-top: 15%;
+    max-width: 90%;
+    background-color: brown;
+}
+
+#center_doc{
+    flex-wrap: wrap;
+    max-width: 90%;
+
+}
+
+.Tile{
+    flex-direction: row;
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 255, 255);
+    background-color: bisque;
+    ;
+}
+.Title{
+    padding:10px;
+    max-width: 100%;   
+    background-color: rgb(109, 185, 22);
+}
+#blerb{
+    
+    padding: 10px;
+    background-color: blueviolet;
+    
+}
+
