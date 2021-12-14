@@ -8,8 +8,7 @@ body{
     position: absolute;
     z-index: 2;
     float: right;
-    height: 15% ;
-    max-height: 100px;
+    height: 8% ;
     width: 100%;
     background-color: rgb(40, 94, 141);
 }
@@ -20,7 +19,7 @@ body{
 
 }
 .About{
-    margin-top: 15%;
+    margin-top: 8%%;
     max-width: 90%;
     background-color: brown;
 }
@@ -32,7 +31,7 @@ body{
 }
 
 .Tile{
-    flex-direction: row;
+    
     flex: 1 0 200px;
     padding: 10px;
     text-align: center;
