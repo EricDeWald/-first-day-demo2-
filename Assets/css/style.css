@@ -1,27 +1,45 @@
 body{
-   
-    margin: 0%;
     background-color: rgb(188, 192, 245);
-    
+}
+
+footer{
+    position:fixed;
+    z-index: 2;
+    display: block;
+    align-items: center;
+    bottom: 0%;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(40, 94, 141);
 }
 
 .nav_bar{
-    position: fixed;
+    position:fixed;
     z-index: 2;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 8% ;
+    top: 0%;
+    height: 10%;
     width: 100%;
     background-color: rgb(40, 94, 141);
 }
+
 #nav_button{
     background-color: aqua;
-    margin: 20px;
-    max-width: 15%;
-    max-height: 10px;
-
+    padding:30px;
+    margin: auto;
+    max-width: auto;
+    max-height: auto;
+    border-radius: 100%;
 }
+#nav_button:hover{
+    padding: 45px;
+    background-color: rgb(255, 252, 76);
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
 .About{
     margin-top: 8%;
     max-width: 90%;
@@ -29,22 +47,35 @@ body{
 }
 
 #center_doc{
+    display: flex;
     flex-wrap: wrap;
     max-width: 90%;
-
 }
 
 .Tile{
-    
+    height: 20%;
+    width: 30%;
     flex: 1 0 200px;
     padding: 10px;
     text-align: center;
     border-style: solid;
-    border-width: 5px;
+    border-width: 10px;
     border-color: rgb(0, 255, 255);
     background-color: bisque;
     ;
 }
+.Tile img{
+    max-width: 80%;
+    opacity: 80%;
+}
+.Tile img:hover{
+    max-width: 100%;
+    transition: 1.5s;
+    opacity: 100%;
+    z-index: 2;
+        
+}
+
 .Title{
     padding:10px;
     max-width: 100%;   
@@ -57,3 +88,7 @@ body{
     
 }
 
+/* changed to coulmn */
+/* @media screen {1180
+    
+} */
