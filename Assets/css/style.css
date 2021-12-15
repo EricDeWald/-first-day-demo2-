@@ -92,15 +92,32 @@ footer{
     
 }
 
-/* changed to coulmn */
-@media only screen and (max-width: 1890px;){
+
+@media only screen and (max-width: 1189px){
     .About{
         font-size: large;
         margin-top: 8%;
         max-width: 90%;
         background-color: rgb(42, 71, 165);
     }
+}
+
+@media only screen and (max-width: 923px){
+    .About{
+        font-size: large;
+        margin-top: 8%;
+        max-width: 90%;
+        background-color: rgb(140, 42, 165);
+    }
 
 }
-    
-} */
+
+@media only screen and (max-width: 655px){
+    .About{
+        font-size: large;
+        margin-top: 8%;
+        max-width: 90%;
+        background-color: rgb(42, 165, 58);
+    }
+
+}
