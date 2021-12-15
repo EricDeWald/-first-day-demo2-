@@ -1,6 +1,10 @@
 # Assignment-2_Professional Portfolio
-============
-![portfolio pic](.assets/images)
+=============
+
+![portfolio pic](./assets/screenpick.png)
+
+
+
 first day overview and repo set-up
 
 Html overview-
