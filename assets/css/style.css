@@ -1,8 +1,9 @@
 body{
     background-image: linear-gradient(#0d0221,#2de2e6);
 }
-header img{
-    size: 50%;
+#myFace{
+    height: 25%;
+    width: 25%;
 }
 footer{
     
@@ -66,13 +67,13 @@ footer{
 }
 @keyframes winky {
     0%{
-        filter: brightness(0%);
+        filter:opacity(0%);
     }
     50%{
-        filter: brightness(50%);
+        filter: opacity(50%);
     }
     100%{
-        filter: brightness(100%);
+        filter: opacity(100%);
     }
 }
 .Tile{
@@ -81,8 +82,10 @@ footer{
     flex: 1 0 200px;
     padding: 10px;
     text-align: center;
-    border-style: solid;
-    border-width: 10px;
+    margin:10px;
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 5px;
     border-color: #2de2e6;
     background-color: #2e2157;
     ;
@@ -111,9 +114,23 @@ footer{
 }
 #blerb{
     
-    padding: 10px;
+    
+    padding: 15px;
     background-color: #ff3864;
     
+}
+
+#about_txt{
+    color: #f9c80e;
+}
+#my_side_bar{
+    font-size: 25px;
+    color:#0d0221;
+    background-color:transparent;
+}
+#name{
+    color: #0d0221;
+    background-image: linear-gradient(to right,#ff3864,#ff386300 );
 }
 
 
@@ -134,27 +151,18 @@ footer{
         max-width: 90%;
         background-color: rgb(140, 42, 165);
     }
-
+    #myFace{
+        height: 100%;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 655px){
     .About{
         font-size: large;
-        margin-top: 8%;
+        margin-top: 25%;
         max-width: 90%;
-        background-color: rgb(37, 168, 54);
+        background-color: transparent;
     }
 
-}
-#about_txt{
-    color: #f9c80e;
-}
-#my_side_bar{
-    font-size: larger;
-    color:#ff3864;
-    background-color:transparent;
-}
-#name{
-    color: #0d0221;
-    background-image: linear-gradient(to right,#ff3864,#ff386300 );
 }
